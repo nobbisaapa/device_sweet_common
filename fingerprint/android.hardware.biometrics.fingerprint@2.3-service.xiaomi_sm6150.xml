@@ -1,4 +1,5 @@
 <manifest version="1.0" type="device">
+    <!-- fingerprint hal: using remote service instead of Google's default service-->
     <hal format="hidl">
         <name>android.hardware.biometrics.fingerprint</name>
         <transport>hwbinder</transport>
